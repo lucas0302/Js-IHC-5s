@@ -41,6 +41,7 @@ textarea{
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
 .submit-button, .cancel-button{
     width: 70px;
     padding: 5px;
@@ -48,6 +49,10 @@ textarea{
     color: white;
     border-radius: 20px;
     border: none;
+}
+.accept-terms{
+    margin-bottom: 20px;
+    display: inline-flex;
 }
 .cancel-button{
     background-color: rgb(0, 255, 42);

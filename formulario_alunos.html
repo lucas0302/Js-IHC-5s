@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css"><!--link para o css -->
-   <script src="js/script.js"></script> <!--link para o javaScript -->
+   <script src="js/valida_form.js"></script> <!--link para o javaScript -->
   <title>Formulário de Cadastro</title>
 </head>
 <body>
   <div class="form-container">
     <h2>Formulário de Cadastro</h2>
-    <form action="processa.php" method="post">
+    <form action="processa.php" method="post" on>
       <label for="nome">Nome:</label>
       <input type="text" id="nome" name="nome" placeholder="Preencha com seu nome">
 
@@ -34,7 +34,7 @@
       <label for="aceite-termos" class="accept-terms">Aceito os termos de adesão:</label>
       <br>
 
-      <input type="submit" value="Enviar" class="submit-button">
+      <input type="submit" value="Enviar" class="submit-button" onclick="validarCampos()">
       <input type="reset" value="Cancelar" class="cancel-button">
     </form>
   </div>
